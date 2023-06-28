@@ -4,12 +4,6 @@ public class PosterItem {
 
     public String[] itemName;
 
-
-/*public PosterItem(String itemName) {
-
-    this.itemName = itemName;
-}*/
-
     public static void main(String[] args) {
         //PosterManager manager = new PosterManager();
         String[] filmName = { // Все фильмы должны храниться внутри массива в поле самого менеджера

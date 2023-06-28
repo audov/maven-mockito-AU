@@ -33,13 +33,13 @@ public class PosterManager {
     }
 
     public String[] findLast() { // длина массива
-       int filmsQty;
+        int filmsQty;
         if (films.length < filmsDispQty) {
             filmsQty = films.length;
         } else {
             filmsQty = filmsDispQty;
         }
-            String[] reversed = new String[filmsQty];
+        String[] reversed = new String[filmsQty];
 
         for (int i = 0; i < reversed.length; i++) {
             reversed[i] = films[films.length - 1 - i];
